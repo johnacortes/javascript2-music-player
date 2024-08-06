@@ -1,0 +1,168 @@
+body {
+  background-image: url(bg.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#container-music {
+  background-color: #212936;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 340px;
+  height: 530px;
+  border-radius: 5%;
+}
+
+#container-imagen {
+  display: flex;
+  width: 310px;
+  height: 330px;
+  background-image: url(cover-1.png);
+  border-radius: 7%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-top: 15px;
+  margin-bottom: 0;
+  padding: 0;
+}
+
+#title-cancion {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 250px;
+  height: 50px;
+  margin-top: 10px;
+  padding: 0;
+}
+
+.container-relojs {
+  display: flex;
+  width: 310px;
+  height: 14px;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 30px;
+  margin-bottom: 7px;
+  padding: 0;
+}
+
+.reloj {
+  width: 30px;
+  height: 12;
+  margin-left: 10px;
+  font-size: 12px;
+  color: hsl(216, 6%, 49%);
+  font-family: inter;
+}
+
+#progress_container {
+  position: relative;
+  width: 100%;
+  height: 5px;
+  max-width: 300px;
+  background-color: #ccc;
+  border-radius: 6px;
+  padding: 0;
+  margin-bottom: 20px;
+  margin-top: 0;
+  overflow: hidden;
+}
+
+#progress {
+  background-color: #c93b76;
+  width: 0;
+  height: 100%;
+}
+
+h2 {
+  font-family: inter;
+  font-weight: 500;
+  font-size: 16px;
+  color: #e5e7eb;
+  padding: 0;
+  margin-bottom: 0;
+}
+
+h4 {
+  font-family: inter;
+  font-size: 12px;
+  color: hsl(216, 6%, 49%);
+  padding: 0;
+  margin-top: 5px;
+}
+
+.svg {
+  background-color: transparent;
+  color: hsl(216, 6%, 49%);
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  padding-bottom: 15px;
+  margin-top: 15px;
+}
+
+#svg-reverse {
+  color: hsl(216, 6%, 49%);
+  border-radius: 50%;
+  border: none;
+  margin-bottom: 0;
+  margin-right: 10px;
+}
+
+#svg-adelantar {
+  color: hsl(216, 6%, 49%);
+  border: none;
+  margin-bottom: 0;
+  margin-left: 10px;
+}
+
+#totalTime {
+  margin-right: 5px;
+}
+
+#controles {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
+
+.toggleAudio {
+  background: none;
+  border: none;
+  border-radius: 50%;
+}
+
+.toggleAudio:active {
+  transform: translate(2px);
+}
+
+#button-play {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #c93b76;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.display-none {
+  display: none;
+  width: 0;
+  height: 0;
+}
